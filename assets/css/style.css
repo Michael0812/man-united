@@ -14,6 +14,13 @@ body {
 }
 
 
+/*Navbar*/
+
+.logo {
+    width: 40px;
+}
+
+
 /*Hero Image*/
 
 .hero-image {
@@ -49,6 +56,9 @@ body {
     }
     .title1 {
         font-size: 2rem;
+    }
+    li {
+        margin-left: 1.5rem;
     }
 }
 
