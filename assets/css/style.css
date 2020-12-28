@@ -51,16 +51,76 @@ body {
 
 /*History*/
 
-.about-border {
+.about-border,
+.about-border1 {
     display: block;
-    width: 100px;
     height: 3px;
     background: #FF0000;
     margin: 5px auto;
 }
 
+.about-border {
+    width: 100px;
+}
+
+.about-border1 {
+    width: 150px;
+}
+
 .history-text {
     margin-top: 2rem;
+}
+
+
+/*Fame Board*/
+
+img {
+    width: 100%;
+}
+
+.fame-images {
+    max-height: 50vh;
+    min-height: 50vh;
+}
+
+.fame-name {
+    color: #fff;
+}
+
+.fame-images-carousel {
+    width: 100%;
+    min-width: 100vw;
+    height: 100%;
+}
+
+.hover figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.1);
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+.fa-angle-double-right {
+    color: #6e9cb7;
 }
 
 
