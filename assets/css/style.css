@@ -111,17 +111,36 @@
             bottom: -36px;
             opacity: 1;
         }
-        
-        .fa-angle-double-right {
-            color: #6e9cb7;
-        }
         /*The Beginings*/
         
         iframe {
             width: 100%;
             min-height: 50vh;
         }
-        /*Stadium*/
+        /*Footer*/
+        
+        .page-footer {
+            background-color: #707070;
+        }
+        
+        .footer-header,
+        .footer-icon,
+        .fab {
+            color: #fff;
+        }
+        
+        .footer-icon:hover,
+        .fab:hover {
+            color: #000;
+        }
+        
+        .btn {
+            color: #000;
+        }
+        
+        .btn:hover {
+            color: #fff;
+        }
         /*Media Queries*/
         
         @media only screen and (min-width: 768px) {
