@@ -153,6 +153,10 @@ iframe {
     color: #fff;
 }
 
+.fab {
+    font-size: 1.2rem;
+}
+
 .footer-icon:hover,
 .fab:hover {
     color: #000;
