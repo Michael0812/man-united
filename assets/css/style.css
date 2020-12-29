@@ -1,198 +1,220 @@
-        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
-        html {
-            margin: 0;
-            padding: 0;
-            scroll-behavior: smooth;
-        }
-        
-        body {
-            font-family: 'Lato', sans-serif;
-            width: 100%;
-            min-width: 100vw;
-            height: 100%;
-            color: #707070;
-            background-color: #ffffff;
-            overflow-x: hidden;
-            padding-right: 0px;
-            margin-right: 0px;
-        }
-        /*Navbar*/
-        
-        .logo {
-            width: 40px;
-        }
-        /*Hero Image*/
-        
-        .hero-image {
-            width: 100%;
-            min-width: 100vw;
-        }
-        
-        .title {
-            font-size: 1.2rem;
-            top: 35%;
-            left: 20%;
-            transform: translate(-50%, -50%);
-            position: absolute;
-            color: #fff;
-        }
-        
-        .title1 {
-            font-size: 1.4rem;
-            top: 50%;
-            left: 30%;
-            transform: translate(-50%, -50%);
-            position: absolute;
-            color: #fff;
-            font-weight: bold;
-        }
-        /*History*/
-        
-        .about-border,
-        .about-border1 {
-            display: block;
-            height: 3px;
-            background: #FF0000;
-            margin: 5px auto;
-        }
-        
-        .about-border {
-            width: 100px;
-        }
-        
-        .about-border1 {
-            width: 150px;
-        }
-        
-        .history-text {
-            margin-top: 2rem;
-        }
-        /*Fame Board*/
-        
-        img {
-            width: 100%;
-        }
-        
-        .fame-images {
-            max-height: 50vh;
-            min-height: 50vh;
-        }
-        
-        .fame-name {
-            color: #838383;
-        }
-        
-        .fame-images-carousel {
-            width: 100%;
-            min-width: 100vw;
-            height: 100%;
-            min-height: 50vh;
-            max-height: 50vh;
-        }
-        
-        .hover figure img {
-            -webkit-transform: scale(1);
-            transform: scale(1);
-            -webkit-transition: .3s ease-in-out;
-            transition: .3s ease-in-out;
-        }
-        
-        .hover figure:hover img {
-            -webkit-transform: scale(1.3);
-            transform: scale(1.1);
-        }
-        
-        figure {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            background: #fff;
-            overflow: hidden;
-        }
-        
-        figure:hover+span {
-            bottom: -36px;
-            opacity: 1;
-        }
-        /*The Beginings*/
-        
-        iframe {
-            width: 100%;
-            min-height: 50vh;
-        }
-        /*Footer*/
-        
-        .page-footer {
-            background-color: #707070;
-        }
-        
-        .footer-header,
-        .footer-icon,
-        .fab {
-            color: #fff;
-        }
-        
-        .footer-icon:hover,
-        .fab:hover {
-            color: #000;
-        }
-        
-        .btn {
-            color: #000;
-        }
-        
-        .btn:hover {
-            color: #fff;
-        }
-        /*Media Queries*/
-        
-        @media only screen and (min-width: 768px) {
-            .title {
-                font-size: 1.5rem;
-            }
-            .title1 {
-                font-size: 2rem;
-            }
-            li {
-                margin-left: 1.5rem;
-            }
-            iframe {
-                width: 100%;
-                max-width: 60vw;
-                height: 100%;
-                min-height: 50vh;
-            }
-        }
-        
-        @media only screen and (min-width: 1024px) {
-            .title {
-                font-size: 2.4rem;
-                top: 35%;
-            }
-            .title1 {
-                font-size: 3.5rem;
-                left: 25%;
-            }
-            .history-text {
-                word-spacing: 5px;
-                line-height: 25px;
-                width: 80%;
-                margin-top: 3rem;
-                padding-top: 5rem;
-            }
-            .stadium {
-                min-height: 70vh;
-            }
-            .stadium-content,
-            .stadium-content1 {
-                line-height: 30px;
-            }
-        }
-        
-        @media only screen and (min-width: 1200px) {
-            .stadium-content,
-            .stadium-content1 {
-                line-height: 30px;
-            }
-        }
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400&display=swap');
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    min-width: 100vw;
+    height: 100%;
+    color: #707070;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+
+/*Navbar*/
+
+.logo {
+    width: 40px;
+}
+
+
+/*Hero Image*/
+
+.hero-image {
+    width: 100%;
+    min-width: 100vw;
+}
+
+.title,
+.title1,
+.fame-board-title,
+.beginings-title,
+.history-title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 1.2rem;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.title1 {
+    font-size: 1.4rem;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*History*/
+
+.about-border,
+.about-border1 {
+    display: block;
+    height: 3px;
+    background: #FF0000;
+    margin: 5px auto;
+}
+
+.about-border {
+    width: 100px;
+}
+
+.about-border1 {
+    width: 150px;
+}
+
+.history-text {
+    margin-top: 2rem;
+}
+
+
+/*Fame Board*/
+
+img {
+    width: 100%;
+}
+
+.fame-images {
+    max-height: 50vh;
+    min-height: 50vh;
+}
+
+.fame-name {
+    color: #838383;
+}
+
+.fame-images-carousel {
+    width: 100%;
+    min-width: 100vw;
+    height: 100%;
+    min-height: 50vh;
+    max-height: 50vh;
+}
+
+.hover figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.1);
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+
+/*The Beginings*/
+
+iframe {
+    width: 100%;
+    min-height: 50vh;
+}
+
+
+/*Footer*/
+
+.page-footer {
+    background-color: #707070;
+}
+
+.footer-header,
+.footer-icon,
+.fab {
+    color: #fff;
+}
+
+.footer-icon:hover,
+.fab:hover {
+    color: #000;
+}
+
+.btn {
+    color: #000;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+
+/*Media Queries*/
+
+@media only screen and (min-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .title1 {
+        font-size: 2rem;
+    }
+    li {
+        margin-left: 1.5rem;
+    }
+    iframe {
+        width: 100%;
+        max-width: 60vw;
+        height: 100%;
+        min-height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .title {
+        font-size: 2.4rem;
+        top: 35%;
+    }
+    .title1 {
+        font-size: 3.5rem;
+        left: 25%;
+    }
+    .history-text {
+        word-spacing: 5px;
+        line-height: 25px;
+        width: 80%;
+        margin-top: 3rem;
+        padding-top: 5rem;
+    }
+    .stadium {
+        min-height: 70vh;
+    }
+    .stadium-content,
+    .stadium-content1 {
+        line-height: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .stadium-content,
+    .stadium-content1 {
+        line-height: 30px;
+    }
+}
