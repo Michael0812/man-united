@@ -1,4 +1,4 @@
-        @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
         html {
             margin: 0;
             padding: 0;
@@ -6,7 +6,7 @@
         }
         
         body {
-            font-family: 'PT Serif', serif;
+            font-family: 'Lato', sans-serif;
             width: 100%;
             min-width: 100vw;
             height: 100%;
