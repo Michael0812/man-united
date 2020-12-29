@@ -149,7 +149,8 @@ iframe {
 
 .footer-header,
 .footer-icon,
-.fab {
+.fab,
+.btn {
     color: #fff;
 }
 
@@ -158,16 +159,9 @@ iframe {
 }
 
 .footer-icon:hover,
-.fab:hover {
-    color: #000;
-}
-
-.btn {
-    color: #000;
-}
-
+.fab:hover,
 .btn:hover {
-    color: #fff;
+    color: #000;
 }
 
 .subscribe {
